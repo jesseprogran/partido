@@ -26,7 +26,7 @@ function App() {
               </Nav.Link>
 
               <Nav.Link href="/menu" className="text-uppercase">
-                Menu
+                Galeria
               </Nav.Link>
 
               <Nav.Link href="/about" className="text-uppercase">
