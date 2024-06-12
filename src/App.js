@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Home2 from "./pages/Home2";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
               <Nav.Link href="/contact" className="text-uppercase">
                 Contato
               </Nav.Link>
+              <Nav.Link href="/home2" className="text-uppercase">
+                Home 2
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -46,6 +50,7 @@ function App() {
         <Route path="/menu" element={<Menu/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/home2" element={<Home2/>} />
       </Routes>
 
       <footer className="bg-body-tertiary"> 
