@@ -26,14 +26,23 @@ header h1 {
 
 .home-page header h1,
 .home-page header h2 {
-  text-shadow: 2px 2px 1px #ffff;
+  text-shadow: 5px 2px 1px #ffff;
 }
 
 .menu-section {
-  background-image: url(../utils/img/perfil02.jpg);
+  background: #eb730ab7;
+  /* background-image: url(../utils/img/perfil02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+}
+
+.menu-section h3,
+p {
+  color: black;
+}
+.menu-section h2 {
+  color: rgb(0, 0, 0);
 }
 
 img {
